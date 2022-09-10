@@ -33,9 +33,3 @@ def mult_esc_matriz(matriz,a):
         resultado.append(mult_esc_vect((matriz,a)))
     return resultado
 
-v = [[5,3], [8,2]]
-w = [[3,4], [9,3]]
-
-A = [[(5,3), (8,2)], [(4,8), (6,9)], [(2,5), (3,1)]]
-B = [[(6,4), (4,7)], [(8,3), (9,8)], [(7,1), (9,6)]]
-mult_esc_matriz(A,4);
